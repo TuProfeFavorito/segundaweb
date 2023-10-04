@@ -8,3 +8,31 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+header {
+    box-shadow: 0px 4px 12px #adadad52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fd9c22;
+    color: white;
+    display: flex;
+}
+
+header .nombre {
+    padding-right: 10px;
+    border-right: solid 1px white;
+    margin-right: 10px;
+}
+section {
+    display: flex;
+}
+aside {
+    width: 300px;
+}
+main {
+    width: calc(100% - 300px);
+    background: #e5e5e5;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
